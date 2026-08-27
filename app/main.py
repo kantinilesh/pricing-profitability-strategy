@@ -16,7 +16,7 @@ import json
 import numpy as np
 import pandas as pd
 from typing import Optional
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, Query, UploadFile, File
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
@@ -36,6 +36,10 @@ from src.analysis.economics.customer_economics import run_customer_segmentation
 from src.analysis.economics.product_portfolio import run_product_portfolio_analysis
 from src.analysis.scenarios.scenario_engine import run_strategic_scenario_engine
 from src.analysis.scenarios.sensitivity_analysis import run_sensitivity_analysis
+from src.analysis.rag_recommendation import rag_engine_instance
+
+class RAGQueryRequest(BaseModel):
+    query: str = Field(..., description="Executive strategy question or prompt")
 
 PROCESSED_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "data", "processed"))
 
@@ -225,6 +229,109 @@ def get_page7_scenarios():
         "scenarios": df_scen.to_dict(orient="records"),
         "sensitivity": df_sens.to_dict(orient="records")
     })
+
+# RAG Recommendation Engine Endpoints
+@app.get("/api/v2/rag/prompts")
+def get_rag_prompts():
+    return clean_dict(rag_engine_instance.get_preset_prompts())
+
+@app.post("/api/v2/rag/recommend")
+def post_rag_recommendation(payload: RAGQueryRequest):
+    return clean_dict(rag_engine_instance.query(payload.query))
+
+@app.get("/api/v2/rag/recommend")
+def get_rag_recommendation(q: str = Query(..., description="Strategy query string")):
+    return clean_dict(rag_engine_instance.query(q))
+
+# SaaS Client Multi-Tenant Data Management Endpoints
+TENANT_STATE = {
+    "mode": "Demo Benchmark",
+    "tenant_name": "OmniRetail India Benchmark",
+    "total_records": 12500,
+    "last_sync": "Live Benchmark"
+}
+
+ORIGINAL_DATASET_BACKUP = os.path.join(PROCESSED_DIR, "analytical_dataset_original.csv")
+
+@app.get("/api/v2/saas/tenant-info")
+def get_tenant_info():
+    return clean_dict(TENANT_STATE)
+
+@app.post("/api/v2/saas/upload-dataset")
+async def upload_custom_dataset(file: UploadFile = File(...)):
+    try:
+        if not file.filename.endswith('.csv'):
+            return {"success": False, "message": "Only CSV files are supported."}
+
+        # Backup original dataset on first custom upload
+        dataset_path = os.path.join(PROCESSED_DIR, "analytical_dataset.csv")
+        if os.path.exists(dataset_path) and not os.path.exists(ORIGINAL_DATASET_BACKUP):
+            import shutil
+            shutil.copy(dataset_path, ORIGINAL_DATASET_BACKUP)
+
+        content = await file.read()
+        import io
+        df = pd.read_csv(io.BytesIO(content))
+
+        # Flexible column mapping / defaults
+        required_cols = ["revenue", "gross_profit", "units", "category", "region", "channel", "customer_segment"]
+        for col in required_cols:
+            if col not in df.columns:
+                if col in ["revenue", "gross_profit", "units"]:
+                    df[col] = 0.0 if col != "units" else 0
+                else:
+                    df[col] = "Default"
+
+        # Save uploaded dataset
+        df.to_csv(dataset_path, index=False)
+
+        # Update Tenant State
+        TENANT_STATE["mode"] = "Custom Client Workspace"
+        TENANT_STATE["tenant_name"] = f"Client Workspace ({file.filename})"
+        TENANT_STATE["total_records"] = len(df)
+        TENANT_STATE["last_sync"] = "Just Now"
+
+        # Re-index RAG Knowledge Base
+        rag_engine_instance.reindex_dataset(df)
+
+        tot_rev = float(df["revenue"].sum())
+        tot_gp = float(df["gross_profit"].sum())
+
+        return clean_dict({
+            "success": True,
+            "message": f"Dataset '{file.filename}' uploaded successfully! Analyzed {len(df):,} records.",
+            "tenant_state": TENANT_STATE,
+            "summary": {
+                "records": len(df),
+                "total_revenue_inr": tot_rev,
+                "total_profit_inr": tot_gp,
+                "margin_pct": round(tot_gp / tot_rev * 100, 2) if tot_rev > 0 else 0.0
+            }
+        })
+    except Exception as e:
+        return {"success": False, "message": f"Failed to parse CSV: {str(e)}"}
+
+@app.post("/api/v2/saas/reset-demo")
+def reset_to_demo_benchmark():
+    dataset_path = os.path.join(PROCESSED_DIR, "analytical_dataset.csv")
+    if os.path.exists(ORIGINAL_DATASET_BACKUP):
+        import shutil
+        shutil.copy(ORIGINAL_DATASET_BACKUP, dataset_path)
+    
+    df = pd.read_csv(dataset_path)
+    rag_engine_instance.reindex_dataset(df)
+
+    TENANT_STATE["mode"] = "Demo Benchmark"
+    TENANT_STATE["tenant_name"] = "OmniRetail India Benchmark"
+    TENANT_STATE["total_records"] = len(df)
+    TENANT_STATE["last_sync"] = "Live Benchmark"
+
+    return clean_dict({
+        "success": True,
+        "message": "Reset to OmniRetail India Benchmark dataset.",
+        "tenant_state": TENANT_STATE
+    })
+
 
 # Serve Static Assets
 static_dir = os.path.join(os.path.dirname(__file__), "static")
