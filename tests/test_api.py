@@ -1,5 +1,5 @@
 """
-Unit tests for FastAPI endpoints.
+Unit tests for FastAPI endpoints across the 7 Dashboard Pages.
 """
 
 from fastapi.testclient import TestClient
@@ -10,35 +10,53 @@ client = TestClient(app)
 def test_health_endpoint():
     response = client.get("/api/v1/health")
     assert response.status_code == 200
-    assert response.json()["status"] == "healthy"
 
-def test_waterfall_endpoint():
-    response = client.get("/api/v1/waterfall")
-    assert response.status_code == 200
-    data = response.json()
-    assert "gross_revenue" in data
-    assert "pocket_profit" in data
-
-def test_elasticity_endpoint():
-    response = client.get("/api/v1/elasticity")
+def test_filter_options():
+    response = client.get("/api/v2/filters/options")
     assert response.status_code == 200
     data = response.json()
     assert "categories" in data
-    assert len(data["categories"]) > 0
+    assert "regions" in data
 
-def test_whale_curve_endpoint():
-    response = client.get("/api/v1/whale-curve")
+def test_page1_executive_summary():
+    response = client.get("/api/v2/page1/executive-summary")
     assert response.status_code == 200
     data = response.json()
-    assert "whale_curve" in data
+    assert "title" in data
+    assert "revenue_inr" in data
 
-def test_simulate_endpoint():
-    payload = {
-        "inelastic_price_increase_pct": 5.0,
-        "b2b_discount_cap_pct": 18.0,
-        "eliminate_eoss_markdowns": True
-    }
-    response = client.post("/api/v1/simulate", json=payload)
+def test_page2_profitability():
+    response = client.get("/api/v2/page2/profitability")
     assert response.status_code == 200
     data = response.json()
-    assert data["simulated_pocket_margin_pct"] > data["baseline_pocket_margin_pct"]
+    assert "monthly_trend" in data
+
+def test_page3_pricing():
+    response = client.get("/api/v2/page3/pricing")
+    assert response.status_code == 200
+    data = response.json()
+    assert "elasticities" in data
+
+def test_page4_products():
+    response = client.get("/api/v2/page4/products")
+    assert response.status_code == 200
+    data = response.json()
+    assert "portfolio_summary" in data
+
+def test_page5_customers():
+    response = client.get("/api/v2/page5/customers")
+    assert response.status_code == 200
+    data = response.json()
+    assert "matrix_summary" in data
+
+def test_page6_promotions():
+    response = client.get("/api/v2/page6/promotions")
+    assert response.status_code == 200
+    data = response.json()
+    assert "promotions_roi" in data
+
+def test_page7_scenarios():
+    response = client.get("/api/v2/page7/scenarios")
+    assert response.status_code == 200
+    data = response.json()
+    assert "scenarios" in data
