@@ -1,0 +1,7 @@
+region_id,region,primary_hub,logistics_cost_tier
+REG_NORTH,North,Delhi NCR,Standard
+REG_SOUTH,South,Bengaluru,Standard
+REG_WEST,West,Mumbai,Standard
+REG_EAST,East,Kolkata,Medium
+REG_CENTRAL,Central,Indore,Medium
+REG_NORTHEAST,North-East,Guwahati,High

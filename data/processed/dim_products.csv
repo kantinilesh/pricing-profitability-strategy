@@ -1,0 +1,76 @@
+product_id,product_name,category,subcategory,list_price,unit_cogs
+PRD_101,Consumer Item 1,Consumer Electronics,Consumer Sub 1,25909.0,20336.71
+PRD_102,Consumer Item 2,Consumer Electronics,Consumer Sub 2,48249.0,39570.65
+PRD_103,Consumer Item 3,Consumer Electronics,Consumer Sub 3,12249.0,10588.04
+PRD_104,Consumer Item 4,Consumer Electronics,Consumer Sub 1,6129.0,4862.64
+PRD_105,Consumer Item 5,Consumer Electronics,Consumer Sub 2,40069.0,32423.54
+PRD_106,Consumer Item 6,Consumer Electronics,Consumer Sub 3,3789.0,2966.82
+PRD_107,Consumer Item 7,Consumer Electronics,Consumer Sub 1,54529.0,46827.66
+PRD_108,Consumer Item 8,Consumer Electronics,Consumer Sub 2,13859.0,11941.74
+PRD_109,Consumer Item 9,Consumer Electronics,Consumer Sub 3,21519.0,17807.5
+PRD_110,Consumer Item 10,Consumer Electronics,Consumer Sub 1,29499.0,25100.02
+PRD_111,Consumer Item 11,Consumer Electronics,Consumer Sub 2,40739.0,35282.04
+PRD_112,Consumer Item 12,Consumer Electronics,Consumer Sub 3,20759.0,17507.39
+PRD_113,Consumer Item 13,Consumer Electronics,Consumer Sub 1,30999.0,24845.15
+PRD_114,Consumer Item 14,Consumer Electronics,Consumer Sub 2,14979.0,12411.25
+PRD_115,Consumer Item 15,Consumer Electronics,Consumer Sub 3,39529.0,34601.91
+PRD_116,Apparel Item 1,Apparel & Fashion,Apparel Sub 1,3269.0,1686.46
+PRD_117,Apparel Item 2,Apparel & Fashion,Apparel Sub 2,889.0,320.24
+PRD_118,Apparel Item 3,Apparel & Fashion,Apparel Sub 3,4849.0,1882.97
+PRD_119,Apparel Item 4,Apparel & Fashion,Apparel Sub 1,1939.0,1028.57
+PRD_120,Apparel Item 5,Apparel & Fashion,Apparel Sub 2,3609.0,1667.25
+PRD_121,Apparel Item 6,Apparel & Fashion,Apparel Sub 3,1139.0,513.65
+PRD_122,Apparel Item 7,Apparel & Fashion,Apparel Sub 1,749.0,275.73
+PRD_123,Apparel Item 8,Apparel & Fashion,Apparel Sub 2,1739.0,726.02
+PRD_124,Apparel Item 9,Apparel & Fashion,Apparel Sub 3,1969.0,878.15
+PRD_125,Apparel Item 10,Apparel & Fashion,Apparel Sub 1,2999.0,1538.57
+PRD_126,Apparel Item 11,Apparel & Fashion,Apparel Sub 2,4869.0,1923.13
+PRD_127,Apparel Item 12,Apparel & Fashion,Apparel Sub 3,4729.0,1754.62
+PRD_128,Apparel Item 13,Apparel & Fashion,Apparel Sub 1,3229.0,1180.6
+PRD_129,Apparel Item 14,Apparel & Fashion,Apparel Sub 2,989.0,505.18
+PRD_130,Apparel Item 15,Apparel & Fashion,Apparel Sub 3,799.0,387.46
+PRD_131,Home Item 1,Home & Kitchen,Home Sub 1,5599.0,3564.23
+PRD_132,Home Item 2,Home & Kitchen,Home Sub 2,10929.0,6807.89
+PRD_133,Home Item 3,Home & Kitchen,Home Sub 3,4299.0,2550.03
+PRD_134,Home Item 4,Home & Kitchen,Home Sub 1,2599.0,1433.73
+PRD_135,Home Item 5,Home & Kitchen,Home Sub 2,1799.0,939.25
+PRD_136,Home Item 6,Home & Kitchen,Home Sub 3,10239.0,6636.98
+PRD_137,Home Item 7,Home & Kitchen,Home Sub 1,969.0,532.49
+PRD_138,Home Item 8,Home & Kitchen,Home Sub 2,9449.0,5323.18
+PRD_139,Home Item 9,Home & Kitchen,Home Sub 3,10229.0,6834.54
+PRD_140,Home Item 10,Home & Kitchen,Home Sub 1,5239.0,3465.39
+PRD_141,Home Item 11,Home & Kitchen,Home Sub 2,11339.0,6579.71
+PRD_142,Home Item 12,Home & Kitchen,Home Sub 3,4899.0,3281.5
+PRD_143,Home Item 13,Home & Kitchen,Home Sub 1,4659.0,2925.72
+PRD_144,Home Item 14,Home & Kitchen,Home Sub 2,9729.0,5623.27
+PRD_145,Home Item 15,Home & Kitchen,Home Sub 3,11629.0,7029.1
+PRD_146,FMCG Item 1,FMCG & Personal Care,FMCG Sub 1,286.53,198.57
+PRD_147,FMCG Item 2,FMCG & Personal Care,FMCG Sub 2,1019.0,729.41
+PRD_148,FMCG Item 3,FMCG & Personal Care,FMCG Sub 3,1039.0,754.24
+PRD_149,FMCG Item 4,FMCG & Personal Care,FMCG Sub 1,749.0,551.17
+PRD_150,FMCG Item 5,FMCG & Personal Care,FMCG Sub 2,178.23,139.7
+PRD_151,FMCG Item 6,FMCG & Personal Care,FMCG Sub 3,185.14,130.44
+PRD_152,FMCG Item 7,FMCG & Personal Care,FMCG Sub 1,509.0,368.37
+PRD_153,FMCG Item 8,FMCG & Personal Care,FMCG Sub 2,1189.0,906.74
+PRD_154,FMCG Item 9,FMCG & Personal Care,FMCG Sub 3,619.0,425.05
+PRD_155,FMCG Item 10,FMCG & Personal Care,FMCG Sub 1,412.12,324.94
+PRD_156,Footwear Item 1,Footwear,Footwear Sub 1,2309.0,1318.39
+PRD_157,Footwear Item 2,Footwear,Footwear Sub 2,5629.0,2558.6
+PRD_158,Footwear Item 3,Footwear,Footwear Sub 3,4089.0,1811.99
+PRD_159,Footwear Item 4,Footwear,Footwear Sub 1,4979.0,2820.19
+PRD_160,Footwear Item 5,Footwear,Footwear Sub 2,5439.0,2735.37
+PRD_161,Footwear Item 6,Footwear,Footwear Sub 3,4999.0,2193.08
+PRD_162,Footwear Item 7,Footwear,Footwear Sub 1,2449.0,1420.89
+PRD_163,Footwear Item 8,Footwear,Footwear Sub 2,1979.0,1035.26
+PRD_164,Footwear Item 9,Footwear,Footwear Sub 3,5049.0,2247.15
+PRD_165,Footwear Item 10,Footwear,Footwear Sub 1,839.0,426.27
+PRD_166,Beauty Item 1,Beauty & Cosmetics,Beauty Sub 1,1629.0,742.14
+PRD_167,Beauty Item 2,Beauty & Cosmetics,Beauty Sub 2,679.0,293.65
+PRD_168,Beauty Item 3,Beauty & Cosmetics,Beauty Sub 3,3319.0,1444.96
+PRD_169,Beauty Item 4,Beauty & Cosmetics,Beauty Sub 1,1959.0,704.06
+PRD_170,Beauty Item 5,Beauty & Cosmetics,Beauty Sub 2,1459.0,445.93
+PRD_171,Beauty Item 6,Beauty & Cosmetics,Beauty Sub 3,3379.0,1519.35
+PRD_172,Beauty Item 7,Beauty & Cosmetics,Beauty Sub 1,1889.0,830.83
+PRD_173,Beauty Item 8,Beauty & Cosmetics,Beauty Sub 2,1209.0,595.58
+PRD_174,Beauty Item 9,Beauty & Cosmetics,Beauty Sub 3,2249.0,898.39
+PRD_175,Beauty Item 10,Beauty & Cosmetics,Beauty Sub 1,463.73,206.02

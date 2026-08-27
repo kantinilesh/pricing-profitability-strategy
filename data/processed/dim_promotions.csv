@@ -1,0 +1,7 @@
+promo_id,promotion_type,default_discount_pct,vendor_coop_share_pct
+PRM_NONE,Baseline / None,0.0,0.0
+PRM_DIWALI,Festive Dhamaka,0.2,0.35
+PRM_NAVRATRI,Navratri Special,0.15,0.25
+PRM_EOSS,EOSS Clearance,0.3,0.1
+PRM_FLASH,Flash Wednesday,0.12,0.4
+PRM_BULK,B2B Volume Incentive,0.1,0.0

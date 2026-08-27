@@ -1,0 +1,5 @@
+channel_id,channel,take_rate_pct,cost_to_serve_base_pct
+CHN_STORE,Physical Retail Store,0.0,0.04
+CHN_DIRECT,E-Commerce Direct,0.0,0.08
+CHN_MKT,E-Commerce Marketplace,0.1,0.12
+CHN_QUICK,Quick-Commerce,0.05,0.15
