@@ -1,0 +1,241 @@
+product_id,sku_code,product_name,category,subcategory,brand,list_price_inr,base_cogs_inr,weight_kg,price_elasticity_target,is_active
+PROD_1001,SKU-CON-SMA-1001,TechMax Smartphone V1,Consumer Electronics,Smartphones,TechMax,29029,22785.69,4.08,-1.72,True
+PROD_1002,SKU-CON-SMA-1002,TechMax Smartphone V2,Consumer Electronics,Smartphones,TechMax,12969,11210.41,0.51,-1.51,True
+PROD_1003,SKU-CON-SMA-1003,TechMax Smartphone V3,Consumer Electronics,Smartphones,TechMax,45679,36963.12,0.31,-1.42,True
+PROD_1004,SKU-CON-SMA-1004,SonicX Smartphone V1,Consumer Electronics,Smartphones,SonicX,62679,53826.6,1.16,-2.05,True
+PROD_1005,SKU-CON-SMA-1005,SonicX Smartphone V2,Consumer Electronics,Smartphones,SonicX,23859,19743.9,2.49,-1.97,True
+PROD_1006,SKU-CON-SMA-1006,SonicX Smartphone V3,Consumer Electronics,Smartphones,SonicX,46469,40244.51,1.75,-1.91,True
+PROD_1007,SKU-CON-SMA-1007,VoltDevices Smartphone V1,Consumer Electronics,Smartphones,VoltDevices,35019,28067.11,1.26,-1.79,True
+PROD_1008,SKU-CON-SMA-1008,VoltDevices Smartphone V2,Consumer Electronics,Smartphones,VoltDevices,45039,39425.11,3.42,-2.06,True
+PROD_1009,SKU-CON-SMA-1009,VoltDevices Smartphone V3,Consumer Electronics,Smartphones,VoltDevices,6279,4929.71,5.32,-1.55,True
+PROD_1010,SKU-CON-SMA-1010,AuraGadgets Smartphone V1,Consumer Electronics,Smartphones,AuraGadgets,23889,20788.99,3.83,-1.85,True
+PROD_1011,SKU-CON-SMA-1011,AuraGadgets Smartphone V2,Consumer Electronics,Smartphones,AuraGadgets,10469,8694.32,0.38,-1.47,True
+PROD_1012,SKU-CON-SMA-1012,AuraGadgets Smartphone V3,Consumer Electronics,Smartphones,AuraGadgets,20519,16697.29,1.85,-1.78,True
+PROD_1013,SKU-CON-SMA-1013,KritiTech Smartphone V1,Consumer Electronics,Smartphones,KritiTech,41679,35907.07,5.34,-1.58,True
+PROD_1014,SKU-CON-SMA-1014,KritiTech Smartphone V2,Consumer Electronics,Smartphones,KritiTech,70549,55770.2,3.37,-1.46,True
+PROD_1015,SKU-CON-SMA-1015,KritiTech Smartphone V3,Consumer Electronics,Smartphones,KritiTech,7999,6882.35,0.44,-1.94,True
+PROD_1016,SKU-CON-AUD-1016,TechMax Audio & Headphone V1,Consumer Electronics,Audio & Headphones,TechMax,30069,25644.8,4.59,-1.91,True
+PROD_1017,SKU-CON-AUD-1017,TechMax Audio & Headphone V2,Consumer Electronics,Audio & Headphones,TechMax,22149,18289.1,0.95,-1.56,True
+PROD_1018,SKU-CON-AUD-1018,TechMax Audio & Headphone V3,Consumer Electronics,Audio & Headphones,TechMax,6979,5452.77,4.29,-2.04,True
+PROD_1019,SKU-CON-AUD-1019,SonicX Audio & Headphone V1,Consumer Electronics,Audio & Headphones,SonicX,1899,1516.26,3.95,-1.62,True
+PROD_1020,SKU-CON-AUD-1020,SonicX Audio & Headphone V2,Consumer Electronics,Audio & Headphones,SonicX,58189,50775.46,2.1,-2.11,True
+PROD_1021,SKU-CON-AUD-1021,SonicX Audio & Headphone V3,Consumer Electronics,Audio & Headphones,SonicX,64939,53098.68,1.95,-2.15,True
+PROD_1022,SKU-CON-AUD-1022,VoltDevices Audio & Headphone V1,Consumer Electronics,Audio & Headphones,VoltDevices,24359,20643.81,4.07,-1.69,True
+PROD_1023,SKU-CON-AUD-1023,VoltDevices Audio & Headphone V2,Consumer Electronics,Audio & Headphones,VoltDevices,66709,55553.82,0.83,-1.63,True
+PROD_1024,SKU-CON-AUD-1024,VoltDevices Audio & Headphone V3,Consumer Electronics,Audio & Headphones,VoltDevices,57419,47305.92,4.29,-1.8,True
+PROD_1025,SKU-CON-AUD-1025,AuraGadgets Audio & Headphone V1,Consumer Electronics,Audio & Headphones,AuraGadgets,39919,33422.02,0.33,-2.11,True
+PROD_1026,SKU-CON-AUD-1026,AuraGadgets Audio & Headphone V2,Consumer Electronics,Audio & Headphones,AuraGadgets,3809,3109.51,1.87,-1.79,True
+PROD_1027,SKU-CON-AUD-1027,AuraGadgets Audio & Headphone V3,Consumer Electronics,Audio & Headphones,AuraGadgets,68209,58323.52,2.38,-1.6,True
+PROD_1028,SKU-CON-AUD-1028,KritiTech Audio & Headphone V1,Consumer Electronics,Audio & Headphones,KritiTech,18319,15979.7,1.74,-2.07,True
+PROD_1029,SKU-CON-AUD-1029,KritiTech Audio & Headphone V2,Consumer Electronics,Audio & Headphones,KritiTech,69829,55806.5,3.56,-1.5,True
+PROD_1030,SKU-CON-AUD-1030,KritiTech Audio & Headphone V3,Consumer Electronics,Audio & Headphones,KritiTech,60569,52170.68,4.93,-1.77,True
+PROD_1031,SKU-CON-LAP-1031,TechMax Laptops & Tablet V1,Consumer Electronics,Laptops & Tablets,TechMax,60849,48094.49,1.89,-2.11,True
+PROD_1032,SKU-CON-LAP-1032,TechMax Laptops & Tablet V2,Consumer Electronics,Laptops & Tablets,TechMax,18249,15279.69,4.54,-1.51,True
+PROD_1033,SKU-CON-LAP-1033,TechMax Laptops & Tablet V3,Consumer Electronics,Laptops & Tablets,TechMax,2009,1665.31,2.41,-2.02,True
+PROD_1034,SKU-CON-LAP-1034,SonicX Laptops & Tablet V1,Consumer Electronics,Laptops & Tablets,SonicX,10309,8723.87,5.2,-1.94,True
+PROD_1035,SKU-CON-LAP-1035,SonicX Laptops & Tablet V2,Consumer Electronics,Laptops & Tablets,SonicX,39629,32087.53,2.13,-1.42,True
+PROD_1036,SKU-CON-LAP-1036,SonicX Laptops & Tablet V3,Consumer Electronics,Laptops & Tablets,SonicX,72239,61751.47,2.84,-1.96,True
+PROD_1037,SKU-CON-LAP-1037,VoltDevices Laptops & Tablet V1,Consumer Electronics,Laptops & Tablets,VoltDevices,22439,19663.55,3.43,-1.8,True
+PROD_1038,SKU-CON-LAP-1038,VoltDevices Laptops & Tablet V2,Consumer Electronics,Laptops & Tablets,VoltDevices,5279,4498.42,5.01,-2.01,True
+PROD_1039,SKU-CON-LAP-1039,VoltDevices Laptops & Tablet V3,Consumer Electronics,Laptops & Tablets,VoltDevices,12149,10096.48,5.42,-2.01,True
+PROD_1040,SKU-CON-LAP-1040,AuraGadgets Laptops & Tablet V1,Consumer Electronics,Laptops & Tablets,AuraGadgets,50899,40914.55,1.46,-1.62,True
+PROD_1041,SKU-CON-LAP-1041,AuraGadgets Laptops & Tablet V2,Consumer Electronics,Laptops & Tablets,AuraGadgets,28529,23301.61,3.56,-1.77,True
+PROD_1042,SKU-CON-LAP-1042,AuraGadgets Laptops & Tablet V3,Consumer Electronics,Laptops & Tablets,AuraGadgets,8139,6482.47,1.9,-2.05,True
+PROD_1043,SKU-CON-LAP-1043,KritiTech Laptops & Tablet V1,Consumer Electronics,Laptops & Tablets,KritiTech,4499,3693.28,3.79,-2.19,True
+PROD_1044,SKU-CON-LAP-1044,KritiTech Laptops & Tablet V2,Consumer Electronics,Laptops & Tablets,KritiTech,39139,33555.84,3.62,-2.06,True
+PROD_1045,SKU-CON-LAP-1045,KritiTech Laptops & Tablet V3,Consumer Electronics,Laptops & Tablets,KritiTech,52279,43983.71,5.16,-2.09,True
+PROD_1046,SKU-CON-WEA-1046,TechMax Wearable V1,Consumer Electronics,Wearables,TechMax,26569,23079.23,5.1,-1.5,True
+PROD_1047,SKU-CON-WEA-1047,TechMax Wearable V2,Consumer Electronics,Wearables,TechMax,20459,16653.66,4.53,-1.76,True
+PROD_1048,SKU-CON-WEA-1048,TechMax Wearable V3,Consumer Electronics,Wearables,TechMax,40429,34599.74,0.69,-1.48,True
+PROD_1049,SKU-CON-WEA-1049,SonicX Wearable V1,Consumer Electronics,Wearables,SonicX,67679,55272.75,2.0,-1.92,True
+PROD_1050,SKU-CON-WEA-1050,SonicX Wearable V2,Consumer Electronics,Wearables,SonicX,54859,43354.46,4.9,-1.58,True
+PROD_1051,SKU-CON-WEA-1051,SonicX Wearable V3,Consumer Electronics,Wearables,SonicX,48689,42436.65,1.06,-1.48,True
+PROD_1052,SKU-CON-WEA-1052,VoltDevices Wearable V1,Consumer Electronics,Wearables,VoltDevices,46069,40498.35,0.74,-1.67,True
+PROD_1053,SKU-CON-WEA-1053,VoltDevices Wearable V2,Consumer Electronics,Wearables,VoltDevices,1869,1614.66,3.11,-1.65,True
+PROD_1054,SKU-CON-WEA-1054,VoltDevices Wearable V3,Consumer Electronics,Wearables,VoltDevices,49419,42380.4,3.97,-2.01,True
+PROD_1055,SKU-CON-WEA-1055,AuraGadgets Wearable V1,Consumer Electronics,Wearables,AuraGadgets,25419,20471.21,3.64,-1.52,True
+PROD_1056,SKU-CON-WEA-1056,AuraGadgets Wearable V2,Consumer Electronics,Wearables,AuraGadgets,49829,41017.7,0.7,-1.91,True
+PROD_1057,SKU-CON-WEA-1057,AuraGadgets Wearable V3,Consumer Electronics,Wearables,AuraGadgets,20989,17958.21,5.36,-1.89,True
+PROD_1058,SKU-CON-WEA-1058,KritiTech Wearable V1,Consumer Electronics,Wearables,KritiTech,67059,54779.57,4.41,-1.8,True
+PROD_1059,SKU-CON-WEA-1059,KritiTech Wearable V2,Consumer Electronics,Wearables,KritiTech,43899,36469.02,1.23,-1.62,True
+PROD_1060,SKU-CON-WEA-1060,KritiTech Wearable V3,Consumer Electronics,Wearables,KritiTech,22139,19428.49,3.62,-2.06,True
+PROD_1061,SKU-APP-ETH-1061,VedaStyles Ethnic Wear V1,Apparel & Fashion,Ethnic Wear,VedaStyles,5669,2036.39,5.05,-1.54,True
+PROD_1062,SKU-APP-ETH-1062,VedaStyles Ethnic Wear V2,Apparel & Fashion,Ethnic Wear,VedaStyles,579,210.95,2.47,-1.12,True
+PROD_1063,SKU-APP-ETH-1063,VedaStyles Ethnic Wear V3,Apparel & Fashion,Ethnic Wear,VedaStyles,5799,2200.13,1.76,-1.53,True
+PROD_1064,SKU-APP-ETH-1064,UrbanWeave Ethnic Wear V1,Apparel & Fashion,Ethnic Wear,UrbanWeave,5179,2520.18,1.1,-1.41,True
+PROD_1065,SKU-APP-ETH-1065,UrbanWeave Ethnic Wear V2,Apparel & Fashion,Ethnic Wear,UrbanWeave,5649,2320.58,3.22,-1.73,True
+PROD_1066,SKU-APP-ETH-1066,UrbanWeave Ethnic Wear V3,Apparel & Fashion,Ethnic Wear,UrbanWeave,3879,1365.37,0.94,-1.44,True
+PROD_1067,SKU-APP-ETH-1067,MetroTreads Ethnic Wear V1,Apparel & Fashion,Ethnic Wear,MetroTreads,5319,2137.42,3.89,-1.31,True
+PROD_1068,SKU-APP-ETH-1068,MetroTreads Ethnic Wear V2,Apparel & Fashion,Ethnic Wear,MetroTreads,2479,1217.89,4.49,-1.23,True
+PROD_1069,SKU-APP-ETH-1069,MetroTreads Ethnic Wear V3,Apparel & Fashion,Ethnic Wear,MetroTreads,5269,1935.58,2.91,-1.45,True
+PROD_1070,SKU-APP-ETH-1070,RoyaleFashions Ethnic Wear V1,Apparel & Fashion,Ethnic Wear,RoyaleFashions,4889,2053.42,3.92,-1.24,True
+PROD_1071,SKU-APP-ETH-1071,RoyaleFashions Ethnic Wear V2,Apparel & Fashion,Ethnic Wear,RoyaleFashions,5389,2599.66,2.19,-1.73,True
+PROD_1072,SKU-APP-ETH-1072,RoyaleFashions Ethnic Wear V3,Apparel & Fashion,Ethnic Wear,RoyaleFashions,3679,1997.0,2.67,-1.42,True
+PROD_1073,SKU-APP-ETH-1073,IndiStyle Ethnic Wear V1,Apparel & Fashion,Ethnic Wear,IndiStyle,2069,893.46,0.36,-1.77,True
+PROD_1074,SKU-APP-ETH-1074,IndiStyle Ethnic Wear V2,Apparel & Fashion,Ethnic Wear,IndiStyle,5019,2398.89,0.87,-1.43,True
+PROD_1075,SKU-APP-ETH-1075,IndiStyle Ethnic Wear V3,Apparel & Fashion,Ethnic Wear,IndiStyle,4729,2396.83,3.5,-1.74,True
+PROD_1076,SKU-APP-WES-1076,VedaStyles Western Wear V1,Apparel & Fashion,Western Wear,VedaStyles,779,345.66,3.07,-1.35,True
+PROD_1077,SKU-APP-WES-1077,VedaStyles Western Wear V2,Apparel & Fashion,Western Wear,VedaStyles,4489,1592.83,2.94,-1.57,True
+PROD_1078,SKU-APP-WES-1078,VedaStyles Western Wear V3,Apparel & Fashion,Western Wear,VedaStyles,4869,2414.21,2.53,-1.75,True
+PROD_1079,SKU-APP-WES-1079,UrbanWeave Western Wear V1,Apparel & Fashion,Western Wear,UrbanWeave,639,228.42,4.63,-1.31,True
+PROD_1080,SKU-APP-WES-1080,UrbanWeave Western Wear V2,Apparel & Fashion,Western Wear,UrbanWeave,2749,1416.67,1.03,-1.62,True
+PROD_1081,SKU-APP-WES-1081,UrbanWeave Western Wear V3,Apparel & Fashion,Western Wear,UrbanWeave,3519,1432.52,3.7,-1.6,True
+PROD_1082,SKU-APP-WES-1082,MetroTreads Western Wear V1,Apparel & Fashion,Western Wear,MetroTreads,5749,2313.52,3.14,-1.37,True
+PROD_1083,SKU-APP-WES-1083,MetroTreads Western Wear V2,Apparel & Fashion,Western Wear,MetroTreads,2809,1405.77,2.09,-1.27,True
+PROD_1084,SKU-APP-WES-1084,MetroTreads Western Wear V3,Apparel & Fashion,Western Wear,MetroTreads,579,305.01,0.44,-1.77,True
+PROD_1085,SKU-APP-WES-1085,RoyaleFashions Western Wear V1,Apparel & Fashion,Western Wear,RoyaleFashions,5199,2127.79,2.71,-1.73,True
+PROD_1086,SKU-APP-WES-1086,RoyaleFashions Western Wear V2,Apparel & Fashion,Western Wear,RoyaleFashions,3199,1456.52,1.12,-1.5,True
+PROD_1087,SKU-APP-WES-1087,RoyaleFashions Western Wear V3,Apparel & Fashion,Western Wear,RoyaleFashions,2689,1147.75,3.57,-1.77,True
+PROD_1088,SKU-APP-WES-1088,IndiStyle Western Wear V1,Apparel & Fashion,Western Wear,IndiStyle,2559,1087.13,2.87,-1.2,True
+PROD_1089,SKU-APP-WES-1089,IndiStyle Western Wear V2,Apparel & Fashion,Western Wear,IndiStyle,4119,2131.22,0.57,-1.35,True
+PROD_1090,SKU-APP-WES-1090,IndiStyle Western Wear V3,Apparel & Fashion,Western Wear,IndiStyle,639,276.59,5.18,-1.4,True
+PROD_1091,SKU-APP-FOO-1091,VedaStyles Footwear V1,Apparel & Fashion,Footwear,VedaStyles,2629,1107.71,2.63,-1.42,True
+PROD_1092,SKU-APP-FOO-1092,VedaStyles Footwear V2,Apparel & Fashion,Footwear,VedaStyles,5679,2684.91,5.29,-1.17,True
+PROD_1093,SKU-APP-FOO-1093,VedaStyles Footwear V3,Apparel & Fashion,Footwear,VedaStyles,1579,846.55,0.73,-1.79,True
+PROD_1094,SKU-APP-FOO-1094,UrbanWeave Footwear V1,Apparel & Fashion,Footwear,UrbanWeave,1019,421.25,0.58,-1.58,True
+PROD_1095,SKU-APP-FOO-1095,UrbanWeave Footwear V2,Apparel & Fashion,Footwear,UrbanWeave,5139,2802.53,4.52,-1.6,True
+PROD_1096,SKU-APP-FOO-1096,UrbanWeave Footwear V3,Apparel & Fashion,Footwear,UrbanWeave,1149,471.84,3.53,-1.19,True
+PROD_1097,SKU-APP-FOO-1097,MetroTreads Footwear V1,Apparel & Fashion,Footwear,MetroTreads,4539,1767.05,1.69,-1.68,True
+PROD_1098,SKU-APP-FOO-1098,MetroTreads Footwear V2,Apparel & Fashion,Footwear,MetroTreads,4629,1798.98,5.45,-1.51,True
+PROD_1099,SKU-APP-FOO-1099,MetroTreads Footwear V3,Apparel & Fashion,Footwear,MetroTreads,2539,1002.19,2.01,-1.15,True
+PROD_1100,SKU-APP-FOO-1100,RoyaleFashions Footwear V1,Apparel & Fashion,Footwear,RoyaleFashions,5219,2422.67,4.18,-1.27,True
+PROD_1101,SKU-APP-FOO-1101,RoyaleFashions Footwear V2,Apparel & Fashion,Footwear,RoyaleFashions,1069,394.98,2.88,-1.22,True
+PROD_1102,SKU-APP-FOO-1102,RoyaleFashions Footwear V3,Apparel & Fashion,Footwear,RoyaleFashions,2259,837.85,2.26,-1.79,True
+PROD_1103,SKU-APP-FOO-1103,IndiStyle Footwear V1,Apparel & Fashion,Footwear,IndiStyle,5479,2913.42,1.89,-1.13,True
+PROD_1104,SKU-APP-FOO-1104,IndiStyle Footwear V2,Apparel & Fashion,Footwear,IndiStyle,5729,2493.9,3.55,-1.49,True
+PROD_1105,SKU-APP-FOO-1105,IndiStyle Footwear V3,Apparel & Fashion,Footwear,IndiStyle,2109,1021.32,3.76,-1.27,True
+PROD_1106,SKU-APP-FAS-1106,VedaStyles Fashion Accessorie V1,Apparel & Fashion,Fashion Accessories,VedaStyles,4849,1901.18,0.68,-1.45,True
+PROD_1107,SKU-APP-FAS-1107,VedaStyles Fashion Accessorie V2,Apparel & Fashion,Fashion Accessories,VedaStyles,819,360.44,2.54,-1.18,True
+PROD_1108,SKU-APP-FAS-1108,VedaStyles Fashion Accessorie V3,Apparel & Fashion,Fashion Accessories,VedaStyles,2429,1279.08,0.96,-1.27,True
+PROD_1109,SKU-APP-FAS-1109,UrbanWeave Fashion Accessorie V1,Apparel & Fashion,Fashion Accessories,UrbanWeave,3899,2065.59,0.65,-1.31,True
+PROD_1110,SKU-APP-FAS-1110,UrbanWeave Fashion Accessorie V2,Apparel & Fashion,Fashion Accessories,UrbanWeave,899,346.68,3.94,-1.74,True
+PROD_1111,SKU-APP-FAS-1111,UrbanWeave Fashion Accessorie V3,Apparel & Fashion,Fashion Accessories,UrbanWeave,959,338.21,2.18,-1.54,True
+PROD_1112,SKU-APP-FAS-1112,MetroTreads Fashion Accessorie V1,Apparel & Fashion,Fashion Accessories,MetroTreads,4969,1791.57,5.43,-1.27,True
+PROD_1113,SKU-APP-FAS-1113,MetroTreads Fashion Accessorie V2,Apparel & Fashion,Fashion Accessories,MetroTreads,2569,1370.05,4.32,-1.41,True
+PROD_1114,SKU-APP-FAS-1114,MetroTreads Fashion Accessorie V3,Apparel & Fashion,Fashion Accessories,MetroTreads,2829,1043.13,0.79,-1.46,True
+PROD_1115,SKU-APP-FAS-1115,RoyaleFashions Fashion Accessorie V1,Apparel & Fashion,Fashion Accessories,RoyaleFashions,559,255.05,0.5,-1.72,True
+PROD_1116,SKU-APP-FAS-1116,RoyaleFashions Fashion Accessorie V2,Apparel & Fashion,Fashion Accessories,RoyaleFashions,1139,478.56,4.15,-1.39,True
+PROD_1117,SKU-APP-FAS-1117,RoyaleFashions Fashion Accessorie V3,Apparel & Fashion,Fashion Accessories,RoyaleFashions,5789,2749.92,1.71,-1.19,True
+PROD_1118,SKU-APP-FAS-1118,IndiStyle Fashion Accessorie V1,Apparel & Fashion,Fashion Accessories,IndiStyle,1729,617.87,0.26,-1.12,True
+PROD_1119,SKU-APP-FAS-1119,IndiStyle Fashion Accessorie V2,Apparel & Fashion,Fashion Accessories,IndiStyle,739,274.74,3.0,-1.1,True
+PROD_1120,SKU-APP-FAS-1120,IndiStyle Fashion Accessorie V3,Apparel & Fashion,Fashion Accessories,IndiStyle,899,394.87,5.34,-1.43,True
+PROD_1121,SKU-HOM-SMA-1121,ChefCraft Small Appliance V1,Home & Kitchen,Small Appliances,ChefCraft,9739,5538.38,2.61,-0.82,True
+PROD_1122,SKU-HOM-SMA-1122,ChefCraft Small Appliance V2,Home & Kitchen,Small Appliances,ChefCraft,9099,4875.38,0.44,-1.03,True
+PROD_1123,SKU-HOM-SMA-1123,ChefCraft Small Appliance V3,Home & Kitchen,Small Appliances,ChefCraft,14289,7681.16,2.61,-0.83,True
+PROD_1124,SKU-HOM-SMA-1124,LivingSpace Small Appliance V1,Home & Kitchen,Small Appliances,LivingSpace,4739,3079.88,2.66,-0.99,True
+PROD_1125,SKU-HOM-SMA-1125,LivingSpace Small Appliance V2,Home & Kitchen,Small Appliances,LivingSpace,9089,6067.48,5.36,-0.61,True
+PROD_1126,SKU-HOM-SMA-1126,LivingSpace Small Appliance V3,Home & Kitchen,Small Appliances,LivingSpace,10709,6363.55,1.84,-0.71,True
+PROD_1127,SKU-HOM-SMA-1127,PureHome Small Appliance V1,Home & Kitchen,Small Appliances,PureHome,10519,6879.23,5.03,-0.71,True
+PROD_1128,SKU-HOM-SMA-1128,PureHome Small Appliance V2,Home & Kitchen,Small Appliances,PureHome,14289,8057.35,3.45,-0.95,True
+PROD_1129,SKU-HOM-SMA-1129,PureHome Small Appliance V3,Home & Kitchen,Small Appliances,PureHome,14039,7601.13,0.44,-1.18,True
+PROD_1130,SKU-HOM-SMA-1130,HomeComfort Small Appliance V1,Home & Kitchen,Small Appliances,HomeComfort,6139,3378.36,5.43,-1.11,True
+PROD_1131,SKU-HOM-SMA-1131,HomeComfort Small Appliance V2,Home & Kitchen,Small Appliances,HomeComfort,9239,5719.47,5.34,-0.69,True
+PROD_1132,SKU-HOM-SMA-1132,HomeComfort Small Appliance V3,Home & Kitchen,Small Appliances,HomeComfort,12699,7683.01,2.4,-1.04,True
+PROD_1133,SKU-HOM-SMA-1133,SmartLiving Small Appliance V1,Home & Kitchen,Small Appliances,SmartLiving,1599,866.09,4.51,-0.6,True
+PROD_1134,SKU-HOM-SMA-1134,SmartLiving Small Appliance V2,Home & Kitchen,Small Appliances,SmartLiving,14949,8836.82,4.28,-0.63,True
+PROD_1135,SKU-HOM-SMA-1135,SmartLiving Small Appliance V3,Home & Kitchen,Small Appliances,SmartLiving,12859,8235.22,2.59,-1.12,True
+PROD_1136,SKU-HOM-COO-1136,ChefCraft Cookware & Dining V1,Home & Kitchen,Cookware & Dining,ChefCraft,14349,8365.64,1.41,-0.8,True
+PROD_1137,SKU-HOM-COO-1137,ChefCraft Cookware & Dining V2,Home & Kitchen,Cookware & Dining,ChefCraft,9579,5964.79,0.8,-0.8,True
+PROD_1138,SKU-HOM-COO-1138,ChefCraft Cookware & Dining V3,Home & Kitchen,Cookware & Dining,ChefCraft,8189,4556.6,2.96,-0.69,True
+PROD_1139,SKU-HOM-COO-1139,LivingSpace Cookware & Dining V1,Home & Kitchen,Cookware & Dining,LivingSpace,8639,5099.17,4.85,-0.96,True
+PROD_1140,SKU-HOM-COO-1140,LivingSpace Cookware & Dining V2,Home & Kitchen,Cookware & Dining,LivingSpace,2699,1822.89,4.2,-0.83,True
+PROD_1141,SKU-HOM-COO-1141,LivingSpace Cookware & Dining V3,Home & Kitchen,Cookware & Dining,LivingSpace,10799,6975.35,0.92,-1.19,True
+PROD_1142,SKU-HOM-COO-1142,PureHome Cookware & Dining V1,Home & Kitchen,Cookware & Dining,PureHome,5779,3384.26,2.28,-0.94,True
+PROD_1143,SKU-HOM-COO-1143,PureHome Cookware & Dining V2,Home & Kitchen,Cookware & Dining,PureHome,13639,8514.54,2.92,-0.73,True
+PROD_1144,SKU-HOM-COO-1144,PureHome Cookware & Dining V3,Home & Kitchen,Cookware & Dining,PureHome,6429,3731.82,4.77,-0.63,True
+PROD_1145,SKU-HOM-COO-1145,HomeComfort Cookware & Dining V1,Home & Kitchen,Cookware & Dining,HomeComfort,2889,1536.21,2.81,-1.05,True
+PROD_1146,SKU-HOM-COO-1146,HomeComfort Cookware & Dining V2,Home & Kitchen,Cookware & Dining,HomeComfort,7319,3829.26,2.81,-1.0,True
+PROD_1147,SKU-HOM-COO-1147,HomeComfort Cookware & Dining V3,Home & Kitchen,Cookware & Dining,HomeComfort,9789,6280.39,0.6,-1.12,True
+PROD_1148,SKU-HOM-COO-1148,SmartLiving Cookware & Dining V1,Home & Kitchen,Cookware & Dining,SmartLiving,2619,1717.27,0.94,-0.82,True
+PROD_1149,SKU-HOM-COO-1149,SmartLiving Cookware & Dining V2,Home & Kitchen,Cookware & Dining,SmartLiving,3379,2110.84,4.95,-0.92,True
+PROD_1150,SKU-HOM-COO-1150,SmartLiving Cookware & Dining V3,Home & Kitchen,Cookware & Dining,SmartLiving,10279,6706.32,1.22,-1.18,True
+PROD_1151,SKU-HOM-HOM-1151,ChefCraft Home Decor V1,Home & Kitchen,Home Decor,ChefCraft,3199,2032.73,1.14,-1.15,True
+PROD_1152,SKU-HOM-HOM-1152,ChefCraft Home Decor V2,Home & Kitchen,Home Decor,ChefCraft,2509,1521.14,1.29,-0.98,True
+PROD_1153,SKU-HOM-HOM-1153,ChefCraft Home Decor V3,Home & Kitchen,Home Decor,ChefCraft,7949,4527.25,0.41,-0.72,True
+PROD_1154,SKU-HOM-HOM-1154,LivingSpace Home Decor V1,Home & Kitchen,Home Decor,LivingSpace,9719,6481.78,4.83,-0.65,True
+PROD_1155,SKU-HOM-HOM-1155,LivingSpace Home Decor V2,Home & Kitchen,Home Decor,LivingSpace,1669,1060.98,4.47,-0.75,True
+PROD_1156,SKU-HOM-HOM-1156,LivingSpace Home Decor V3,Home & Kitchen,Home Decor,LivingSpace,3419,2210.4,2.16,-0.91,True
+PROD_1157,SKU-HOM-HOM-1157,PureHome Home Decor V1,Home & Kitchen,Home Decor,PureHome,9579,5948.31,2.65,-0.75,True
+PROD_1158,SKU-HOM-HOM-1158,PureHome Home Decor V2,Home & Kitchen,Home Decor,PureHome,1319,843.65,3.98,-0.66,True
+PROD_1159,SKU-HOM-HOM-1159,PureHome Home Decor V3,Home & Kitchen,Home Decor,PureHome,8059,4793.99,0.77,-0.93,True
+PROD_1160,SKU-HOM-HOM-1160,HomeComfort Home Decor V1,Home & Kitchen,Home Decor,HomeComfort,8359,5359.83,1.63,-0.97,True
+PROD_1161,SKU-HOM-HOM-1161,HomeComfort Home Decor V2,Home & Kitchen,Home Decor,HomeComfort,1079,678.12,1.32,-1.0,True
+PROD_1162,SKU-HOM-HOM-1162,HomeComfort Home Decor V3,Home & Kitchen,Home Decor,HomeComfort,2499,1343.25,3.35,-0.79,True
+PROD_1163,SKU-HOM-HOM-1163,SmartLiving Home Decor V1,Home & Kitchen,Home Decor,SmartLiving,11999,7202.39,0.66,-0.88,True
+PROD_1164,SKU-HOM-HOM-1164,SmartLiving Home Decor V2,Home & Kitchen,Home Decor,SmartLiving,9129,5118.9,2.49,-1.12,True
+PROD_1165,SKU-HOM-HOM-1165,SmartLiving Home Decor V3,Home & Kitchen,Home Decor,SmartLiving,4829,3003.19,3.62,-0.86,True
+PROD_1166,SKU-HOM-STO-1166,ChefCraft Storage Solution V1,Home & Kitchen,Storage Solutions,ChefCraft,5859,3059.32,3.41,-1.06,True
+PROD_1167,SKU-HOM-STO-1167,ChefCraft Storage Solution V2,Home & Kitchen,Storage Solutions,ChefCraft,2239,1467.76,1.5,-1.1,True
+PROD_1168,SKU-HOM-STO-1168,ChefCraft Storage Solution V3,Home & Kitchen,Storage Solutions,ChefCraft,3449,2187.99,1.12,-0.66,True
+PROD_1169,SKU-HOM-STO-1169,LivingSpace Storage Solution V1,Home & Kitchen,Storage Solutions,LivingSpace,1939,1155.8,2.38,-0.61,True
+PROD_1170,SKU-HOM-STO-1170,LivingSpace Storage Solution V2,Home & Kitchen,Storage Solutions,LivingSpace,2389,1472.44,5.34,-0.68,True
+PROD_1171,SKU-HOM-STO-1171,LivingSpace Storage Solution V3,Home & Kitchen,Storage Solutions,LivingSpace,12399,7919.68,1.11,-0.8,True
+PROD_1172,SKU-HOM-STO-1172,PureHome Storage Solution V1,Home & Kitchen,Storage Solutions,PureHome,13999,8272.26,3.23,-1.03,True
+PROD_1173,SKU-HOM-STO-1173,PureHome Storage Solution V2,Home & Kitchen,Storage Solutions,PureHome,11719,7618.21,1.92,-0.94,True
+PROD_1174,SKU-HOM-STO-1174,PureHome Storage Solution V3,Home & Kitchen,Storage Solutions,PureHome,8009,5135.49,0.81,-0.83,True
+PROD_1175,SKU-HOM-STO-1175,HomeComfort Storage Solution V1,Home & Kitchen,Storage Solutions,HomeComfort,4899,2875.72,1.02,-0.91,True
+PROD_1176,SKU-HOM-STO-1176,HomeComfort Storage Solution V2,Home & Kitchen,Storage Solutions,HomeComfort,8359,5614.81,1.98,-1.12,True
+PROD_1177,SKU-HOM-STO-1177,HomeComfort Storage Solution V3,Home & Kitchen,Storage Solutions,HomeComfort,1699,886.21,1.91,-0.71,True
+PROD_1178,SKU-HOM-STO-1178,SmartLiving Storage Solution V1,Home & Kitchen,Storage Solutions,SmartLiving,4409,2517.36,4.23,-0.84,True
+PROD_1179,SKU-HOM-STO-1179,SmartLiving Storage Solution V2,Home & Kitchen,Storage Solutions,SmartLiving,7499,4605.18,2.05,-0.64,True
+PROD_1180,SKU-HOM-STO-1180,SmartLiving Storage Solution V3,Home & Kitchen,Storage Solutions,SmartLiving,12589,6616.72,0.86,-0.76,True
+PROD_1181,SKU-FMC-SKI-1181,NurtureNature Skincare & Grooming V1,FMCG & Personal Care,Skincare & Grooming,NurtureNature,1409,1088.9,0.16,-0.53,True
+PROD_1182,SKU-FMC-SKI-1182,NurtureNature Skincare & Grooming V2,FMCG & Personal Care,Skincare & Grooming,NurtureNature,899,605.68,0.23,-0.5,True
+PROD_1183,SKU-FMC-SKI-1183,NurtureNature Skincare & Grooming V3,FMCG & Personal Care,Skincare & Grooming,NurtureNature,381,295.45,0.25,-0.49,True
+PROD_1184,SKU-FMC-SKI-1184,FreshBite Skincare & Grooming V1,FMCG & Personal Care,Skincare & Grooming,FreshBite,1029,742.46,0.42,-0.46,True
+PROD_1185,SKU-FMC-SKI-1185,FreshBite Skincare & Grooming V2,FMCG & Personal Care,Skincare & Grooming,FreshBite,649,439.7,0.5,-0.71,True
+PROD_1186,SKU-FMC-SKI-1186,FreshBite Skincare & Grooming V3,FMCG & Personal Care,Skincare & Grooming,FreshBite,749,565.34,0.77,-0.65,True
+PROD_1187,SKU-FMC-SKI-1187,CleanGlow Skincare & Grooming V1,FMCG & Personal Care,Skincare & Grooming,CleanGlow,424,281.99,0.45,-0.63,True
+PROD_1188,SKU-FMC-SKI-1188,CleanGlow Skincare & Grooming V2,FMCG & Personal Care,Skincare & Grooming,CleanGlow,1369,967.01,0.21,-0.43,True
+PROD_1189,SKU-FMC-SKI-1189,CleanGlow Skincare & Grooming V3,FMCG & Personal Care,Skincare & Grooming,CleanGlow,979,734.02,0.23,-0.5,True
+PROD_1190,SKU-FMC-SKI-1190,AromaEssence Skincare & Grooming V1,FMCG & Personal Care,Skincare & Grooming,AromaEssence,969,697.66,0.9,-0.51,True
+PROD_1191,SKU-FMC-SKI-1191,AromaEssence Skincare & Grooming V2,FMCG & Personal Care,Skincare & Grooming,AromaEssence,311,234.26,0.32,-0.53,True
+PROD_1192,SKU-FMC-SKI-1192,AromaEssence Skincare & Grooming V3,FMCG & Personal Care,Skincare & Grooming,AromaEssence,145,103.6,0.79,-0.46,True
+PROD_1193,SKU-FMC-SKI-1193,VitalFoods Skincare & Grooming V1,FMCG & Personal Care,Skincare & Grooming,VitalFoods,579,391.87,0.2,-0.48,True
+PROD_1194,SKU-FMC-SKI-1194,VitalFoods Skincare & Grooming V2,FMCG & Personal Care,Skincare & Grooming,VitalFoods,277,205.09,0.82,-0.83,True
+PROD_1195,SKU-FMC-SKI-1195,VitalFoods Skincare & Grooming V3,FMCG & Personal Care,Skincare & Grooming,VitalFoods,419,289.81,0.75,-0.58,True
+PROD_1196,SKU-FMC-PAC-1196,NurtureNature Packaged Food V1,FMCG & Personal Care,Packaged Foods,NurtureNature,1069,768.17,0.33,-0.73,True
+PROD_1197,SKU-FMC-PAC-1197,NurtureNature Packaged Food V2,FMCG & Personal Care,Packaged Foods,NurtureNature,353,234.3,0.63,-0.7,True
+PROD_1198,SKU-FMC-PAC-1198,NurtureNature Packaged Food V3,FMCG & Personal Care,Packaged Foods,NurtureNature,739,486.19,0.24,-0.61,True
+PROD_1199,SKU-FMC-PAC-1199,FreshBite Packaged Food V1,FMCG & Personal Care,Packaged Foods,FreshBite,809,573.0,0.12,-0.46,True
+PROD_1200,SKU-FMC-PAC-1200,FreshBite Packaged Food V2,FMCG & Personal Care,Packaged Foods,FreshBite,1399,1000.61,0.73,-0.44,True
+PROD_1201,SKU-FMC-PAC-1201,FreshBite Packaged Food V3,FMCG & Personal Care,Packaged Foods,FreshBite,1089,846.28,0.62,-0.6,True
+PROD_1202,SKU-FMC-PAC-1202,CleanGlow Packaged Food V1,FMCG & Personal Care,Packaged Foods,CleanGlow,689,475.09,0.94,-0.44,True
+PROD_1203,SKU-FMC-PAC-1203,CleanGlow Packaged Food V2,FMCG & Personal Care,Packaged Foods,CleanGlow,729,570.82,0.99,-0.48,True
+PROD_1204,SKU-FMC-PAC-1204,CleanGlow Packaged Food V3,FMCG & Personal Care,Packaged Foods,CleanGlow,273,180.69,0.88,-0.64,True
+PROD_1205,SKU-FMC-PAC-1205,AromaEssence Packaged Food V1,FMCG & Personal Care,Packaged Foods,AromaEssence,929,687.6,0.15,-0.73,True
+PROD_1206,SKU-FMC-PAC-1206,AromaEssence Packaged Food V2,FMCG & Personal Care,Packaged Foods,AromaEssence,1219,974.35,0.4,-0.7,True
+PROD_1207,SKU-FMC-PAC-1207,AromaEssence Packaged Food V3,FMCG & Personal Care,Packaged Foods,AromaEssence,849,562.06,0.41,-0.73,True
+PROD_1208,SKU-FMC-PAC-1208,VitalFoods Packaged Food V1,FMCG & Personal Care,Packaged Foods,VitalFoods,1129,826.62,0.3,-0.67,True
+PROD_1209,SKU-FMC-PAC-1209,VitalFoods Packaged Food V2,FMCG & Personal Care,Packaged Foods,VitalFoods,296,228.97,0.55,-0.69,True
+PROD_1210,SKU-FMC-PAC-1210,VitalFoods Packaged Food V3,FMCG & Personal Care,Packaged Foods,VitalFoods,1379,1028.24,0.62,-0.58,True
+PROD_1211,SKU-FMC-BEV-1211,NurtureNature Beverage V1,FMCG & Personal Care,Beverages,NurtureNature,117,81.95,0.26,-0.42,True
+PROD_1212,SKU-FMC-BEV-1212,NurtureNature Beverage V2,FMCG & Personal Care,Beverages,NurtureNature,307,226.51,0.18,-0.4,True
+PROD_1213,SKU-FMC-BEV-1213,NurtureNature Beverage V3,FMCG & Personal Care,Beverages,NurtureNature,799,567.84,0.16,-0.53,True
+PROD_1214,SKU-FMC-BEV-1214,FreshBite Beverage V1,FMCG & Personal Care,Beverages,FreshBite,392,260.79,0.28,-0.8,True
+PROD_1215,SKU-FMC-BEV-1215,FreshBite Beverage V2,FMCG & Personal Care,Beverages,FreshBite,150,109.38,0.61,-0.87,True
+PROD_1216,SKU-FMC-BEV-1216,FreshBite Beverage V3,FMCG & Personal Care,Beverages,FreshBite,1179,863.04,0.57,-0.68,True
+PROD_1217,SKU-FMC-BEV-1217,CleanGlow Beverage V1,FMCG & Personal Care,Beverages,CleanGlow,659,471.88,0.24,-0.81,True
+PROD_1218,SKU-FMC-BEV-1218,CleanGlow Beverage V2,FMCG & Personal Care,Beverages,CleanGlow,1299,854.85,0.44,-0.76,True
+PROD_1219,SKU-FMC-BEV-1219,CleanGlow Beverage V3,FMCG & Personal Care,Beverages,CleanGlow,999,737.95,0.12,-0.82,True
+PROD_1220,SKU-FMC-BEV-1220,AromaEssence Beverage V1,FMCG & Personal Care,Beverages,AromaEssence,1099,770.58,0.12,-0.79,True
+PROD_1221,SKU-FMC-BEV-1221,AromaEssence Beverage V2,FMCG & Personal Care,Beverages,AromaEssence,422,295.07,0.12,-0.85,True
+PROD_1222,SKU-FMC-BEV-1222,AromaEssence Beverage V3,FMCG & Personal Care,Beverages,AromaEssence,1219,942.55,0.69,-0.78,True
+PROD_1223,SKU-FMC-BEV-1223,VitalFoods Beverage V1,FMCG & Personal Care,Beverages,VitalFoods,238,181.72,0.75,-0.47,True
+PROD_1224,SKU-FMC-BEV-1224,VitalFoods Beverage V2,FMCG & Personal Care,Beverages,VitalFoods,1259,932.19,0.7,-0.8,True
+PROD_1225,SKU-FMC-BEV-1225,VitalFoods Beverage V3,FMCG & Personal Care,Beverages,VitalFoods,509,338.76,0.11,-0.86,True
+PROD_1226,SKU-FMC-HOM-1226,NurtureNature Home Hygiene V1,FMCG & Personal Care,Home Hygiene,NurtureNature,390,310.45,0.26,-0.61,True
+PROD_1227,SKU-FMC-HOM-1227,NurtureNature Home Hygiene V2,FMCG & Personal Care,Home Hygiene,NurtureNature,689,458.94,0.84,-0.73,True
+PROD_1228,SKU-FMC-HOM-1228,NurtureNature Home Hygiene V3,FMCG & Personal Care,Home Hygiene,NurtureNature,462,343.29,0.63,-0.77,True
+PROD_1229,SKU-FMC-HOM-1229,FreshBite Home Hygiene V1,FMCG & Personal Care,Home Hygiene,FreshBite,969,715.69,0.6,-0.68,True
+PROD_1230,SKU-FMC-HOM-1230,FreshBite Home Hygiene V2,FMCG & Personal Care,Home Hygiene,FreshBite,509,334.79,0.79,-0.83,True
+PROD_1231,SKU-FMC-HOM-1231,FreshBite Home Hygiene V3,FMCG & Personal Care,Home Hygiene,FreshBite,1309,951.49,0.91,-0.5,True
+PROD_1232,SKU-FMC-HOM-1232,CleanGlow Home Hygiene V1,FMCG & Personal Care,Home Hygiene,CleanGlow,689,548.88,0.34,-0.63,True
+PROD_1233,SKU-FMC-HOM-1233,CleanGlow Home Hygiene V2,FMCG & Personal Care,Home Hygiene,CleanGlow,979,745.33,0.23,-0.48,True
+PROD_1234,SKU-FMC-HOM-1234,CleanGlow Home Hygiene V3,FMCG & Personal Care,Home Hygiene,CleanGlow,1479,1066.58,0.25,-0.76,True
+PROD_1235,SKU-FMC-HOM-1235,AromaEssence Home Hygiene V1,FMCG & Personal Care,Home Hygiene,AromaEssence,124,82.19,0.21,-0.61,True
+PROD_1236,SKU-FMC-HOM-1236,AromaEssence Home Hygiene V2,FMCG & Personal Care,Home Hygiene,AromaEssence,482,345.53,0.69,-0.49,True
+PROD_1237,SKU-FMC-HOM-1237,AromaEssence Home Hygiene V3,FMCG & Personal Care,Home Hygiene,AromaEssence,387,308.96,0.22,-0.45,True
+PROD_1238,SKU-FMC-HOM-1238,VitalFoods Home Hygiene V1,FMCG & Personal Care,Home Hygiene,VitalFoods,1319,937.0,0.64,-0.57,True
+PROD_1239,SKU-FMC-HOM-1239,VitalFoods Home Hygiene V2,FMCG & Personal Care,Home Hygiene,VitalFoods,344,228.02,0.48,-0.71,True
+PROD_1240,SKU-FMC-HOM-1240,VitalFoods Home Hygiene V3,FMCG & Personal Care,Home Hygiene,VitalFoods,819,649.43,0.25,-0.53,True

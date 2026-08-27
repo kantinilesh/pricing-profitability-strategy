@@ -1,0 +1,7 @@
+promo_id,promo_name,promo_type,discount_pct,vendor_coop_funding_pct
+PROMO_NONE,No Promotion / Baseline,None,0.0,0.0
+PROMO_DIWALI,Diwali Festive Dhamaka,Festive Campaign,0.2,0.3
+PROMO_NAVRATRI,Navratri Festive Special,Festive Campaign,0.15,0.2
+PROMO_EOSS,End of Season Sale (EOSS),Clearance Markdown,0.3,0.1
+PROMO_FLASH_WED,E-Comm Flash Wednesday,Digital Flash,0.12,0.5
+PROMO_BULK_B2B,B2B Volume Incentive,Trade Promo,0.1,0.0

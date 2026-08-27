@@ -1,0 +1,39 @@
+store_id,store_name,channel,region,city_tier,fulfillment_cost_base_pct
+STORE_ONLINE_DIRECT,OmniRetail Direct App & Web,E-Commerce Direct,National,National,0.08
+STORE_ONLINE_MARKETPLACE,Marketplace Partners (Amazon/Flipkart),E-Commerce Marketplace,National,National,0.12
+STORE_PHY_001,OmniRetail Store 1 (North - Tier 1),Physical Store,North,Tier 1,0.03
+STORE_PHY_002,OmniRetail Store 2 (North - Tier 1),Physical Store,North,Tier 1,0.03
+STORE_PHY_003,OmniRetail Store 3 (North - Tier 1),Physical Store,North,Tier 1,0.03
+STORE_PHY_004,OmniRetail Store 4 (North - Tier 1),Physical Store,North,Tier 1,0.03
+STORE_PHY_005,OmniRetail Store 5 (North - Tier 2),Physical Store,North,Tier 2,0.04
+STORE_PHY_006,OmniRetail Store 6 (North - Tier 2),Physical Store,North,Tier 2,0.04
+STORE_PHY_007,OmniRetail Store 7 (North - Tier 2),Physical Store,North,Tier 2,0.04
+STORE_PHY_008,OmniRetail Store 8 (North - Tier 3),Physical Store,North,Tier 3,0.06
+STORE_PHY_009,OmniRetail Store 9 (North - Tier 3),Physical Store,North,Tier 3,0.06
+STORE_PHY_010,OmniRetail Store 10 (South - Tier 1),Physical Store,South,Tier 1,0.03
+STORE_PHY_011,OmniRetail Store 11 (South - Tier 1),Physical Store,South,Tier 1,0.03
+STORE_PHY_012,OmniRetail Store 12 (South - Tier 1),Physical Store,South,Tier 1,0.03
+STORE_PHY_013,OmniRetail Store 13 (South - Tier 1),Physical Store,South,Tier 1,0.03
+STORE_PHY_014,OmniRetail Store 14 (South - Tier 2),Physical Store,South,Tier 2,0.04
+STORE_PHY_015,OmniRetail Store 15 (South - Tier 2),Physical Store,South,Tier 2,0.04
+STORE_PHY_016,OmniRetail Store 16 (South - Tier 2),Physical Store,South,Tier 2,0.04
+STORE_PHY_017,OmniRetail Store 17 (South - Tier 3),Physical Store,South,Tier 3,0.06
+STORE_PHY_018,OmniRetail Store 18 (South - Tier 3),Physical Store,South,Tier 3,0.06
+STORE_PHY_019,OmniRetail Store 19 (East - Tier 1),Physical Store,East,Tier 1,0.03
+STORE_PHY_020,OmniRetail Store 20 (East - Tier 1),Physical Store,East,Tier 1,0.03
+STORE_PHY_021,OmniRetail Store 21 (East - Tier 1),Physical Store,East,Tier 1,0.03
+STORE_PHY_022,OmniRetail Store 22 (East - Tier 1),Physical Store,East,Tier 1,0.03
+STORE_PHY_023,OmniRetail Store 23 (East - Tier 2),Physical Store,East,Tier 2,0.04
+STORE_PHY_024,OmniRetail Store 24 (East - Tier 2),Physical Store,East,Tier 2,0.04
+STORE_PHY_025,OmniRetail Store 25 (East - Tier 2),Physical Store,East,Tier 2,0.04
+STORE_PHY_026,OmniRetail Store 26 (East - Tier 3),Physical Store,East,Tier 3,0.06
+STORE_PHY_027,OmniRetail Store 27 (East - Tier 3),Physical Store,East,Tier 3,0.06
+STORE_PHY_028,OmniRetail Store 28 (West - Tier 1),Physical Store,West,Tier 1,0.03
+STORE_PHY_029,OmniRetail Store 29 (West - Tier 1),Physical Store,West,Tier 1,0.03
+STORE_PHY_030,OmniRetail Store 30 (West - Tier 1),Physical Store,West,Tier 1,0.03
+STORE_PHY_031,OmniRetail Store 31 (West - Tier 1),Physical Store,West,Tier 1,0.03
+STORE_PHY_032,OmniRetail Store 32 (West - Tier 2),Physical Store,West,Tier 2,0.04
+STORE_PHY_033,OmniRetail Store 33 (West - Tier 2),Physical Store,West,Tier 2,0.04
+STORE_PHY_034,OmniRetail Store 34 (West - Tier 2),Physical Store,West,Tier 2,0.04
+STORE_PHY_035,OmniRetail Store 35 (West - Tier 3),Physical Store,West,Tier 3,0.06
+STORE_PHY_036,OmniRetail Store 36 (West - Tier 3),Physical Store,West,Tier 3,0.06

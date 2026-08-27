@@ -1,0 +1,7 @@
+promo_id,promo_name,promo_type,transaction_count,total_units_sold,total_gross_revenue_inr,total_promo_spend_inr,total_vendor_coop_inr,total_net_revenue_inr,total_pocket_profit_inr,promo_pocket_margin_pct
+PROMO_NONE,No Promotion / Baseline,None,9825,145391.0,1625095846.0,0.0,0.0,1420284814.6799996,113254540.33999987,7.97
+PROMO_FLASH_WED,E-Comm Flash Wednesday,Digital Flash,2407,34260.0,386008341.0,46321000.92000007,48177471.82000001,289653397.7699996,33458998.980000008,11.55
+PROMO_DIWALI,Diwali Festive Dhamaka,Festive Campaign,1024,14792.0,173290811.0,34658162.19999997,16983084.31000002,116680529.85,-5176359.240000003,-4.44
+PROMO_EOSS,End of Season Sale (EOSS),Clearance Markdown,1294,18262.0,192440068.0,57732020.40000005,8030839.550000007,112131672.95999995,-32300547.320000008,-28.81
+PROMO_NAVRATRI,Navratri Festive Special,Festive Campaign,450,7437.0,83990404.0,12598560.600000013,4860833.100000003,59686238.46000005,-2602840.18,-4.36
+PROMO_BULK_B2B,B2B Volume Incentive,Trade Promo,0,,,,,,,

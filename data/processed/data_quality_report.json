@@ -1,0 +1,33 @@
+{
+  "products": {
+    "passed": true,
+    "rows": 240,
+    "errors": []
+  },
+  "customers": {
+    "passed": true,
+    "rows": 500,
+    "errors": []
+  },
+  "stores": {
+    "passed": true,
+    "rows": 38,
+    "errors": []
+  },
+  "promotions": {
+    "passed": true,
+    "rows": 6,
+    "errors": []
+  },
+  "transactions": {
+    "passed": true,
+    "rows": 15000,
+    "errors": []
+  },
+  "competitors": {
+    "passed": true,
+    "rows": 960,
+    "errors": []
+  },
+  "overall_pass": true
+}
